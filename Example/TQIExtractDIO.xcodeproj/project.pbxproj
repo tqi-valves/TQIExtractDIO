@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		34F6ED4E79298E4F52A61961 /* Pods_TQIExtractDIO_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EF019E4974AF2BC8CA2E85 /* Pods_TQIExtractDIO_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A239769E13CA8E431BF34B6D /* Pods_TQIExtractDIO_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A57359CA5856F380905A25B /* Pods_TQIExtractDIO_Example.framework */; };
+		DD1651C627A5C32C00318007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1651C427A5C32C00318007 /* ViewController.swift */; };
+		DD1651C727A5C32C00318007 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1651C527A5C32C00318007 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05383315C1FC0B5E1D4D4602 /* TQIExtractDIO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TQIExtractDIO.podspec; path = ../TQIExtractDIO.podspec; sourceTree = "<group>"; };
-		178E7C3E27A4541FDCA857D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		05383315C1FC0B5E1D4D4602 /* TQIExtractDIO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TQIExtractDIO.podspec; path = ../TQIExtractDIO.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		178E7C3E27A4541FDCA857D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		26DD061DB2B23A39F528B502 /* Pods-TQIExtractDIO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIExtractDIO_Example.debug.xcconfig"; path = "Target Support Files/Pods-TQIExtractDIO_Example/Pods-TQIExtractDIO_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2FF29EFFA38A25149BEFAAA7 /* Pods-TQIExtractDIO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIExtractDIO_Tests.release.xcconfig"; path = "Target Support Files/Pods-TQIExtractDIO_Tests/Pods-TQIExtractDIO_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4EDADAF52A0BBE73DA564DBB /* Pods-TQIExtractDIO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIExtractDIO_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TQIExtractDIO_Tests/Pods-TQIExtractDIO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -37,16 +37,16 @@
 		607FACD01AFB9204008FA782 /* TQIExtractDIO_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQIExtractDIO_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TQIExtractDIO_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQIExtractDIO_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		71EF019E4974AF2BC8CA2E85 /* Pods_TQIExtractDIO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIExtractDIO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD10A795A287D51631D4094B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD10A795A287D51631D4094B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C4B698F75842B6AB47A25B3B /* Pods-TQIExtractDIO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIExtractDIO_Example.release.xcconfig"; path = "Target Support Files/Pods-TQIExtractDIO_Example/Pods-TQIExtractDIO_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DD1651C427A5C32C00318007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD1651C527A5C32C00318007 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				DD1651C227A5C2FE00318007 /* Main */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for TQIExtractDIO";
@@ -147,7 +146,6 @@
 				4EDADAF52A0BBE73DA564DBB /* Pods-TQIExtractDIO_Tests.debug.xcconfig */,
 				2FF29EFFA38A25149BEFAAA7 /* Pods-TQIExtractDIO_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +156,23 @@
 				71EF019E4974AF2BC8CA2E85 /* Pods_TQIExtractDIO_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD1651C227A5C2FE00318007 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DD1651C327A5C30C00318007 /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DD1651C327A5C30C00318007 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD1651C427A5C32C00318007 /* ViewController.swift */,
+				DD1651C527A5C32C00318007 /* ViewController.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +242,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,8 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				DD1651C727A5C32C00318007 /* ViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				DD1651C627A5C32C00318007 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +371,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

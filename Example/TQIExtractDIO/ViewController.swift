@@ -1,24 +1,32 @@
 //
 //  ViewController.swift
-//  TQIExtractDIO
+//  TQIExtractDIO_Example
 //
-//  Created by tqi-gsousa on 01/29/2022.
-//  Copyright (c) 2022 tqi-gsousa. All rights reserved.
+//  Created by Gabriel Borges on 29/01/22.
+//  Copyright © 2022 CocoaPods. All rights reserved.
 //
 
 import UIKit
+import TQIExtractDIO
 
 class ViewController: UIViewController {
-
+    
+    //MARK: - Properties
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var extractButton: UIButton!
+    
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Do any additional setup after loading the view.
     }
-
+    
+    // MARK: - Action
+    
+    @IBAction func goToExtractButtonTapped(_ sender: UIButton) {
+        
+    }
 }
-
