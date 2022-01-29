@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class ExtractListViewController: UIViewController {
+public class ExtractListViewController: BaseViewController {
 
     // MARK: Outlets
     
@@ -32,6 +32,7 @@ public class ExtractListViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+        navBarHidden = false
         title = "Extrato"
         viewModel.delegate = self
         setupTableView()

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TQIExtractDIO'
-  s.version          = '0.1.0'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of TQIExtractDIO.'
 
   s.homepage         = 'https://github.com/tqi-gsousa/TQIExtractDIO'
