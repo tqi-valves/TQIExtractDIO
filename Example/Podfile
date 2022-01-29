@@ -7,6 +7,10 @@ install! 'cocoapods', :disable_input_output_paths => true
 target 'TQIExtractDIO_Example' do
   pod 'TQIExtractDIO', :path => '../'
 
+  pod 'VFNetwork'
+  pod 'TQICoordinator', :git => 'https://github.com/vafreitas/ios-mod-coordinator.git'
+
+
   target 'TQIExtractDIO_Tests' do
     inherit! :search_paths
 

@@ -16,17 +16,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var extractButton: UIButton!
     
+    let extractListCoordinator = ExtractListCoordinator()
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     // MARK: - Action
     
     @IBAction func goToExtractButtonTapped(_ sender: UIButton) {
+        guard let navigation = navigationController else { return }
+        extractListCoordinator.start(usingPresentation: .push(navigation: navigation))
         
     }
 }
